@@ -9,7 +9,7 @@ import SwiftUI
 
 
 struct SearchRepositoryView: View {
-    @State var repositoryNames: [[String:String]] = [["name":"Hello"],["name":"GoodMorning"]]
+    @State var repositoryNames: [[String:String]] = [[:]]
     @ObservedObject var viewModel = SearchRepositoryViewModel()
     @State var word: String = ""
     
@@ -30,7 +30,13 @@ struct SearchRepositoryView: View {
                 }
                 // 配列なので List で繰り返し可能
                 List(repositoryNames, id: \.self) { repositoryName in
-                                        Text("\(repositoryName["name"]!)")
+                    NavigationLink {
+                        RepositoryDetailView(name: repositoryName["name"] ?? "", language: repositoryName["language"] ?? "")
+                    } label: {
+                        Text("\(repositoryName["name"] ?? "")")
+                    }
+
+                                       
                 }
                 
                 }

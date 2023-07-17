@@ -13,7 +13,8 @@ class SearchRepositoryViewModel: ObservableObject{
     func searchResults(word: String) async -> [[String:String]] {
         do {
                 let searchResultsValues = try await GithubApi.fetch(word: word)
-                return getValueDictionaryType(nameValues: searchResultsValues)
+                return searchResultsValues
+                //return getValueDictionaryType(nameValues: searchResultsValues)
         } catch  {
             return []
         }

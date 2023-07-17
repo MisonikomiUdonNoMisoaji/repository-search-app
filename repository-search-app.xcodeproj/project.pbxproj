@@ -14,6 +14,7 @@
 		48DCCFA32A5A8A0A002A5B34 /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCCFA22A5A8A0A002A5B34 /* GithubApi.swift */; };
 		48DCCFA92A5A8BC2002A5B34 /* SearchRepositoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCCFA82A5A8BC2002A5B34 /* SearchRepositoryView.swift */; };
 		48DCCFAB2A5A8F71002A5B34 /* SearchRepositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCCFAA2A5A8F71002A5B34 /* SearchRepositoryViewModel.swift */; };
+		48E1DC682A65170C003CAFB0 /* RepositoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E1DC672A65170C003CAFB0 /* RepositoryDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		48DCCFA22A5A8A0A002A5B34 /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
 		48DCCFA82A5A8BC2002A5B34 /* SearchRepositoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryView.swift; sourceTree = "<group>"; };
 		48DCCFAA2A5A8F71002A5B34 /* SearchRepositoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryViewModel.swift; sourceTree = "<group>"; };
+		48E1DC672A65170C003CAFB0 /* RepositoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				48A8BB4B2A5950CC00DEAB58 /* ContentView.swift */,
 				48DCCFA82A5A8BC2002A5B34 /* SearchRepositoryView.swift */,
+				48E1DC672A65170C003CAFB0 /* RepositoryDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				48DCCFAB2A5A8F71002A5B34 /* SearchRepositoryViewModel.swift in Sources */,
 				48DCCFA32A5A8A0A002A5B34 /* GithubApi.swift in Sources */,
 				48A8BB4C2A5950CC00DEAB58 /* ContentView.swift in Sources */,
+				48E1DC682A65170C003CAFB0 /* RepositoryDetailView.swift in Sources */,
 				48DCCFA92A5A8BC2002A5B34 /* SearchRepositoryView.swift in Sources */,
 				48A8BB3B2A594FA000DEAB58 /* repository_search_appApp.swift in Sources */,
 			);
