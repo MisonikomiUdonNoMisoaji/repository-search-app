@@ -15,13 +15,11 @@ struct RepositoryDetailView: View {
             Text(name)
             Text(language)
         }
-        
-        
     }
 }
 
 struct RepositoryDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        RepositoryDetailView(name: "カーネル",language: "英語")
+        RepositoryDetailView(name: "リポジトリ名",language: "使用言語")
     }
 }

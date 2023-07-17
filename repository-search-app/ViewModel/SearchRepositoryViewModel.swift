@@ -19,19 +19,8 @@ class SearchRepositoryViewModel: ObservableObject{
             return []
         }
     }
-    
-    //データからリポジトリ名のみを抜き出すための関数
-    func getValueDictionaryType (nameValues: [[String:String?]]) ->[[String:String]]{
-        let searchResultValue  = nameValues.compactMap { nameValue -> [String: String]? in
-            guard let name = nameValue["name"]as? String else {
-                return nil
-            }
-            return ["name": name]
-        }
-        return searchResultValue
-    }
 }
 
 
-//キーワードから検索されたデータを格納する(辞書型の配列)
+
 

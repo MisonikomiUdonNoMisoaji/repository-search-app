@@ -20,7 +20,6 @@ struct SearchRepositoryView: View {
                         TextField("", text: $word)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                                             .padding()
-                
                 Button {
                     Task {
                         repositoryNames =  await viewModel.searchResults(word: word)
@@ -28,7 +27,7 @@ struct SearchRepositoryView: View {
                 } label: {
                     Text("検索")
                 }
-                // 配列なので List で繰り返し可能
+                // リポジトリ名を選択時に関連した内容を表示
                 List(repositoryNames, id: \.self) { repositoryName in
                     NavigationLink {
                         RepositoryDetailView(name: repositoryName["name"] ?? "", language: repositoryName["language"] ?? "")
