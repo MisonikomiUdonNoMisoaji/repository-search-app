@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5CC490EF-1FE3-45CE-AB0A-D2A3D492593F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0304CBED-8069-4213-A120-672A4AC7A2CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "repository-search-app/View/SearchRepositoryView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "SearchRepositoryView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "0304CBED-8069-4213-A120-672A4AC7A2CC - 999397fcbca8587e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of repository_search_app.SearchRepositoryView.show : Swift.Bool"
+                  moduleName = "repository-search-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satora/Documents/personal_dev/repository-search-app/repository-search-app/View/SearchRepositoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "0304CBED-8069-4213-A120-672A4AC7A2CC - 47ee0a72c65441d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "repository_search_app.SearchRepositoryView.init() -&gt; repository_search_app.SearchRepositoryView"
+                  moduleName = "repository-search-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satora/Documents/personal_dev/repository-search-app/repository-search-app/View/SearchRepositoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "0304CBED-8069-4213-A120-672A4AC7A2CC - 1e6d499337eb68c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "repository_search_app.SearchRepositoryView.init(searchText: Swift.String) -&gt; repository_search_app.SearchRepositoryView"
+                  moduleName = "repository-search-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satora/Documents/personal_dev/repository-search-app/repository-search-app/View/SearchRepositoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "0304CBED-8069-4213-A120-672A4AC7A2CC - a35941bc6bfb030c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of repository_search_app.SearchRepositoryView.viewModel : repository_search_app.SearchRepositoryViewModel"
+                  moduleName = "repository-search-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satora/Documents/personal_dev/repository-search-app/repository-search-app/View/SearchRepositoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "0304CBED-8069-4213-A120-672A4AC7A2CC - aa540d0eef5dca3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "repository_search_app.SearchRepositoryView.viewModel.getter : repository_search_app.SearchRepositoryViewModel"
+                  moduleName = "repository-search-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satora/Documents/personal_dev/repository-search-app/repository-search-app/View/SearchRepositoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "0304CBED-8069-4213-A120-672A4AC7A2CC - 81d9cf09a9d99cd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "repository_search_app.SearchRepositoryView.viewModel.setter : repository_search_app.SearchRepositoryViewModel"
+                  moduleName = "repository-search-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satora/Documents/personal_dev/repository-search-app/repository-search-app/View/SearchRepositoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "0304CBED-8069-4213-A120-672A4AC7A2CC - 7f92d2092d2a3ca6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "repository_search_app.SearchRepositoryView.viewModel.modify : repository_search_app.SearchRepositoryViewModel"
+                  moduleName = "repository-search-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satora/Documents/personal_dev/repository-search-app/repository-search-app/View/SearchRepositoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "0304CBED-8069-4213-A120-672A4AC7A2CC - 46a956a2ce782a81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "repository_search_app.SearchRepositoryView.viewModel.modify : repository_search_app.SearchRepositoryViewModel with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "repository-search-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satora/Documents/personal_dev/repository-search-app/repository-search-app/View/SearchRepositoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "0304CBED-8069-4213-A120-672A4AC7A2CC - e2e0afed3fe7937d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "repository_search_app.SearchRepositoryView.$viewModel.getter : SwiftUI.ObservedObject&lt;repository_search_app.SearchRepositoryViewModel&gt;.Wrapper"
+                  moduleName = "repository-search-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satora/Documents/personal_dev/repository-search-app/repository-search-app/View/SearchRepositoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "0304CBED-8069-4213-A120-672A4AC7A2CC - 47ee0a72c6544232"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "repository_search_app.SearchRepositoryView.init() -&gt; repository_search_app.SearchRepositoryView"
+                  moduleName = "repository-search-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satora/Documents/personal_dev/repository-search-app/repository-search-app/View/SearchRepositoryView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
