@@ -9,43 +9,33 @@ import SwiftUI
 
 
 struct SearchRepositoryView: View {
-    @State var repositoryNames: [[String:String]] = [[:]]
-    @ObservedObject var viewModel = SearchRepositoryViewModel()
-    @State var word: String = ""
+    @ObservedObject private var viewModel = SearchRepositoryViewModel()
     
     var body: some View {
-        
-            NavigationView {
-                    VStack{
-                        TextField("", text: $word)
-                            .textFieldStyle(RoundedBorderTextFieldStyle())
-                                            .padding()
+        NavigationView {
+            VStack{
+                TextField("", text: $viewModel.word)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .padding()
                 Button {
                     Task {
-                        repositoryNames =  await viewModel.searchResults(word: word)
+                        await viewModel.searchResults()
                     }
                 } label: {
                     Text("検索")
                 }
                 // リポジトリ名を選択時に関連した内容を表示
-                List(repositoryNames, id: \.self) { repositoryName in
+                List(viewModel.repositoryNames, id: \.self) { repositoryName in
                     NavigationLink {
                         RepositoryDetailView(name: repositoryName["name"] ?? "", language: repositoryName["language"] ?? "")
                     } label: {
                         Text("\(repositoryName["name"] ?? "")")
                     }
-
-                                       
-                }
-                
                 }
             }
+        }
     }
 }
-//表示用リスト
-//List(0 ..< testData.count){
-//    Text(self.testData[$0])
-//}
 
 
 //

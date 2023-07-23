@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct RepositoryDetailView: View {
-    let name: String
-    let language: String
+    private let name: String
+    private let language: String
+    
+    init(name: String, language: String) {
+        self.name = name
+        self.language = language
+    }
+    
     var body: some View {
         VStack{
             Text(name)

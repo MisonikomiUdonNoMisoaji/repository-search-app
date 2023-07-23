@@ -6,21 +6,17 @@
 //
 import Foundation
 
+@MainActor
 class SearchRepositoryViewModel: ObservableObject{
-    //Viewからの検索内容
-    @Published var keyWord: GithubApi = GithubApi(word: "")
-    //検索結果に応じてデータを取得する(データ内容はレポジトリ名と使用言語)
-    func searchResults(word: String) async -> [[String:String]] {
+    @Published private(set) var repositoryNames: [[String:String]] = [[:]]
+    @Published public var word: String = ""
+    // 検索結果に応じてデータを取得する(データ内容はレポジトリ名と使用言語)
+    func searchResults() async {
         do {
-                let searchResultsValues = try await GithubApi.fetch(word: word)
-                return searchResultsValues
-                //return getValueDictionaryType(nameValues: searchResultsValues)
-        } catch  {
-            return []
+            let searchResultsValues = try await GithubApi.fetch(word: self.word)
+            repositoryNames = searchResultsValues
+        } catch {
+            
         }
     }
 }
-
-
-
-
